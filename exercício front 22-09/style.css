@@ -1,4 +1,4 @@
-#card1 h3{
+/* #card1 h3{
 	font-family: Arial;
 	color: white;
 	background-color: #FD5151;
@@ -27,4 +27,70 @@
 
 #card1 p{
 	padding-left: 20px;
+}
+ */
+
+ @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+ *{
+ 	font-family: "Open sans";
+ }
+
+ ul{
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+ li{
+ 	padding: 0;
+ }
+ .card{
+
+ 	width: 250px;
+ 	background: white;
+ 	box-shadow: 0 0 10px #000;
+	transition: all 0.2s 0s cubic-bezier(0.01,-0.54, 0, 1.01);
+ }
+
+ .card .content{
+ 	padding: 10px;	
+ }
+
+ .card header{
+ 	background-color: #FD5151;
+ 	color: white;
+ 	text-align: center;
+ }
+.card .content ul{
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom:15px;
+}
+
+.card .content ul li{
+	padding: 5px 10px;
+}
+
+.card header h3{
+	margin: 0;
+	padding: 10px;
+}
+
+.card .content .btn {
+	padding: 20px;
+	color: white;
+	width: 100%;
+	background-color: #FD5151;	
+	display: block;
+	margin: 0px auto;
+	box-sizing: border-box;
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+.card:hover{
+	transform: scale(1.1);
+	box-shadow: none;
 }

@@ -1,0 +1,19 @@
+{
+  "name": "frontendsenai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files *.css,*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSKP/frontendsenai.git"
+  },
+  "author": "cskp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSKP/frontendsenai/issues"
+  },
+  "homepage": "https://github.com/CSKP/frontendsenai#readme"
+}
